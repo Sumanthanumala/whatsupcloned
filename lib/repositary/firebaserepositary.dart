@@ -258,8 +258,10 @@ class FirebaseStorageRepositary {
     final headers = {
       "Content-Type": "application/json",
       "Authorization":
-          "key=AAAAJiYryQM:APA91bE5MG-Mh-Sn_o76Slv-_wAUPDxLwgTjwsbzmRRGr7S0ZASnZJttr52cep2gnZYgPvWRpZQACV_41Y5UcUM1kKg_gLZWgXUfu-ZKxxNirtKiUt_F_Xt3bHWF76PaMekxy037ycJb"
+          "key="
     };
     final Response = await http.post(url, body: jsonEncode(body), headers: headers);
   }
 }
+
+//AAAAJiYryQM:APA91bE5MG-Mh-Sn_o76Slv-_wAUPDxLwgTjwsbzmRRGr7S0ZASnZJttr52cep2gnZYgPvWRpZQACV_41Y5UcUM1kKg_gLZWgXUfu-ZKxxNirtKiUt_F_Xt3bHWF76PaMekxy037ycJb
